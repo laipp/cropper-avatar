@@ -1,0 +1,189 @@
+/*更换头像弹窗*/
+
+.ak-cropper-modal {
+    width: 24rem;
+    height: 20rem;
+    margin-left: -12rem;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ak-cropper-modal .cropper-modal {
+    opacity: .7;
+}
+
+.ak-cropper-modal .cropper-view-box {
+    outline: none;
+    border-radius: 50%;
+}
+
+.ak-cropper-modal .cropper-face {
+    background: #000;
+}
+
+.ak-cropper-modal .modal-inner {
+    padding: 0;
+    background: #ffffff;
+}
+
+.ak-cropper-modal .cropper-wrap-box {
+    background: #000;
+}
+
+.ak-cropper-modal .cropper-modal-title {
+    position: relative;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.ak-cropper-modal .modal-title-text {
+    text-align: left;
+    font-size: 18px;
+}
+
+.ak-cropper-modal .cropper-modal-title .close-modal {
+    position: absolute;
+    right: .5rem;
+    top: 0.4rem;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    background: url("../images/close_ava.png") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.ak-cropper-modal .cropper-container {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.ava-cropper-l {
+    display: inline-block;
+    width: 14rem;
+    height: 15rem;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.upload-btn-wrapper {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.upload-image-wrapper {
+    width: 100%;
+    height: 15rem;
+    display: none;
+}
+
+.upload-btn-wrapper .upload-btn {
+    position: relative;
+    width: 4rem;
+    border-radius: 4px;
+    line-height: 1.35rem;
+    font-size: 16px;
+    color: #fff;
+    background: #0894ec;
+    border: 0;
+}
+
+.upload-btn-wrapper .upload-btn input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    opacity: 0;
+}
+
+.upload-image-wrapper .image-edit-ct {
+    display: block;
+    width: 100%;
+    height: 13.4rem;
+    border: 1px solid #eee;
+}
+
+.upload-image-wrapper .image-btn-ct {
+    display: block;
+    overflow: hidden;
+}
+
+.upload-image-wrapper .image-btn-ct div {
+    float: left;
+    margin-top: 10px;
+    width: 3.4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #666;
+    border: 1px solid #eee;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.upload-image-wrapper .image-btn-ct .re-upload {
+    float: left;
+}
+
+.upload-image-wrapper .image-btn-ct .rotate-btn {
+    float: right;
+}
+
+.ava-cropper-r {
+    display: inline-block;
+    width: calc(100% - 16rem);
+    height: 15rem;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+
+.ava-cropper-r .cropper-preview-title {
+    margin: 2rem auto 1rem;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
+
+.ava-cropper-r .cropper-preview {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    background: #eee;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cropper-footer {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    width: 100%;
+    height: 2.1rem;
+}
+
+.cropper-footer div {
+    display: inline-block;
+    margin: 0 10px;
+    width: 3.4rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    color: #666;
+    border: 1px solid #eee;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cropper-footer div.sure-btn {
+    background: #0894ec;
+    color: #fff;
+}
