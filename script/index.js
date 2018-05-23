@@ -60,7 +60,7 @@
 
     CropAvatar.prototype = {
         constructor: CropAvatar,
-        cropper: "",
+        cropper: null,
         init: function () {
             this.addListener();
         },
